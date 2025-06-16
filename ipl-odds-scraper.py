@@ -24,7 +24,7 @@ match_data = []  # this will store [team1, team2, odd1, odd2] for each match
 for url in urls:
     driver.get(url)
     print(f"Waiting for page to load: {url}")
-    time.sleep(5)
+    time.sleep(20)
 
     # Handle cookie consent (only on the first page load)
     if url == urls[0]:
