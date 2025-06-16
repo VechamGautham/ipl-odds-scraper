@@ -100,7 +100,7 @@ df.to_csv("ipl_odds_full.csv", index=False)
 # === Summary ===
 total_2025 = matches_2025_p1 + matches_2025_p2
 total_2024 = matches_2024_p1 + matches_2024_p2
-print(f"\n✅ Saved {len(match_data)} matches to ipl_odds_full.csv")
+print(f"\n Saved {len(match_data)} matches to ipl_odds_full.csv")
 print(f"Matches from 2025: {total_2025}")
 print(f"Matches from 2024: {total_2024}")
 print(f"Total matches scraped: {len(match_data)}")
