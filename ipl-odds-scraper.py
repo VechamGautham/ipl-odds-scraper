@@ -49,7 +49,7 @@ try:
     )
     cookie_button.click()
     print("Accepted cookie popup")
-except:
+except Exception:
     print("No cookie popup found or already handled")
 
 # Extract matches from Page 1
