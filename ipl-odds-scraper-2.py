@@ -88,6 +88,6 @@ for year in range(2025, 2009, -1):
 driver.quit()
 
 df = pd.DataFrame(match_data, columns=["Team 1", "Team 2", "Odds 1", "Odds 2", "Year"])
-df.to_csv("odds_2010_to_2025.csv", index=False)
+df.to_csv("data/odds_2010_to_2025.csv", index=False)
 
 print(f"\nSaved {len(match_data)} matches to odds_2010_to_2025.csv")

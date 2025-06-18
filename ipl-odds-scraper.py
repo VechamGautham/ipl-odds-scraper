@@ -95,7 +95,7 @@ driver.quit()
 
 # Convert to DataFrame
 df = pd.DataFrame(match_data, columns=["Team 1", "Team 2", "Odds 1", "Odds 2", "Year"])
-df.to_csv("ipl_odds_full.csv", index=False)
+df.to_csv("data/ipl_odds_full.csv", index=False)
 
 # === Summary ===
 total_2025 = matches_2025_p1 + matches_2025_p2
